@@ -26,7 +26,9 @@ const WeeklyOverview = () => {
       height: 350,
       type: 'line',
     },
-
+    forecastDataPoints: {
+      count: 7
+    },
     stroke: {
       width: 5,
       curve: 'smooth'

@@ -37,7 +37,7 @@ const rows: RowType[] = [
     name: 'Sally Quinn',
     salary: '$19586.23',
     email: 'eebsworth2m@sbwire.com',
-    designation: 'Human Resources Assistant'
+    designation: 'Office Assistant'
   },
   {
     age: 61,
@@ -46,7 +46,7 @@ const rows: RowType[] = [
     status: 'professional',
     name: 'Margaret Bowers',
     email: 'kocrevy0@thetimes.co.uk',
-    designation: 'Nuclear Power Engineer'
+    designation: 'Software Engineer'
   },
   {
     age: 59,
@@ -55,7 +55,7 @@ const rows: RowType[] = [
     status: 'rejected',
     salary: '$18991.67',
     email: 'ediehn6@163.com',
-    designation: 'Environmental Specialist'
+    designation: 'Data Specialist'
   },
   {
     age: 30,
@@ -72,7 +72,7 @@ const rows: RowType[] = [
     date: '03/24/2018',
     salary: '$13076.28',
     name: 'Annie Martin',
-    designation: 'Operator',
+    designation: 'Social Media Manager',
     email: 'sganderton2@tuttocitta.it'
   },
   {
@@ -82,7 +82,7 @@ const rows: RowType[] = [
     name: 'Adeline Day',
     status: 'professional',
     email: 'hnisius4@gnu.org',
-    designation: 'Senior Cost Accountant'
+    designation: 'Senior Accountant'
   },
   {
     age: 61,
@@ -90,7 +90,7 @@ const rows: RowType[] = [
     date: '06/01/2017',
     salary: '$17803.80',
     name: 'Lora Jackson',
-    designation: 'Geologist',
+    designation: 'Lawyer',
     email: 'ghoneywood5@narod.ru'
   },
   {
@@ -99,7 +99,7 @@ const rows: RowType[] = [
     salary: '$12336.17',
     name: 'Rodney Sharp',
     status: 'professional',
-    designation: 'Cost Accountant',
+    designation: 'Analyst',
     email: 'dcrossman3@google.co.jp'
   }
 ]

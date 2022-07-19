@@ -11,6 +11,7 @@ import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
 import AccountDealOutline from 'mdi-material-ui/AccountCashOutline'
+import Abacus from 'mdi-material-ui/Abacus'
 
 // ** Type import
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
@@ -26,6 +27,11 @@ const navigation = (): VerticalNavItemsType => {
       title: 'Potential Deals',
       icon: AccountDealOutline,
       path: '/deals'
+    },
+    {
+      title: 'Strategy Builder',
+      icon: Abacus,
+      path: '/strategy'
     },
     {
       title: 'Account Settings',
