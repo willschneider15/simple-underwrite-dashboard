@@ -19,6 +19,7 @@ interface DataType {
   title: string
   imgSrc: string
   amount: string
+  subtitle: string
   progress: number
   color: ThemeColor
   imgHeight: number
@@ -27,27 +28,30 @@ interface DataType {
 const data: DataType[] = [
   {
     progress: 75,
-    imgHeight: 50,
-    title: 'Condos & Multi-Family',
+    imgHeight: 20,
+    title: 'Zipcar',
     color: 'primary',
-    amount: '$24,000,895.65',
-    imgSrc: '/images/cards/condo.png'
+    amount: '$24,895.65',
+    subtitle: 'Vuejs, React & HTML',
+    imgSrc: '/images/cards/logo-zipcar.png'
   },
   {
     progress: 50,
     color: 'info',
-    imgHeight: 50,
-    title: 'Retail',
-    amount: '$8,020,650.20',
-    imgSrc: '/images/cards/retail.png'
+    imgHeight: 27,
+    title: 'Bitbank',
+    amount: '$8,650.20',
+    subtitle: 'Sketch, Figma & XD',
+    imgSrc: '/images/cards/logo-bitbank.png'
   },
   {
     progress: 20,
-    imgHeight: 50,
-    title: 'Hotels & Resorts',
+    imgHeight: 20,
+    title: 'Aviato',
     color: 'secondary',
-    amount: '$1,001,245.80',
-    imgSrc: '/images/cards/hotel.png'
+    amount: '$1,245.80',
+    subtitle: 'HTML & Angular',
+    imgSrc: '/images/cards/logo-aviato.png'
   }
 ]
 
@@ -55,7 +59,7 @@ const TotalEarning = () => {
   return (
     <Card>
       <CardHeader
-        title='Total Monthly Profit'
+        title='Total Earning'
         titleTypographyProps={{ sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -66,18 +70,18 @@ const TotalEarning = () => {
       <CardContent sx={{ pt: theme => `${theme.spacing(2.25)} !important` }}>
         <Box sx={{ mb: 1.5, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h4' sx={{ fontWeight: 600, fontSize: '2.125rem !important' }}>
-            $40,060,895
+            $24,895
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', color: 'success.main' }}>
             <MenuUp sx={{ fontSize: '1.875rem', verticalAlign: 'middle' }} />
             <Typography variant='body2' sx={{ fontWeight: 600, color: 'success.main' }}>
-              2%
+              10%
             </Typography>
           </Box>
         </Box>
 
         <Typography component='p' variant='caption' sx={{ mb: 10 }}>
-          Compared to $30,004,325 last year
+          Compared to $84,325 last year
         </Typography>
 
         {data.map((item: DataType, index: number) => {
@@ -114,6 +118,7 @@ const TotalEarning = () => {
                   <Typography variant='body2' sx={{ mb: 0.5, fontWeight: 600, color: 'text.primary' }}>
                     {item.title}
                   </Typography>
+                  <Typography variant='caption'>{item.subtitle}</Typography>
                 </Box>
 
                 <Box sx={{ minWidth: 85, display: 'flex', flexDirection: 'column' }}>

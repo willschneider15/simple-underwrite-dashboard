@@ -2,8 +2,8 @@
 import Grid from '@mui/material/Grid'
 
 // ** Icons Imports
-import Poll from 'mdi-material-ui/CalendarMonthOutline'
-import CurrencyUsd from 'mdi-material-ui/Bank'
+import Poll from 'mdi-material-ui/Poll'
+import CurrencyUsd from 'mdi-material-ui/CurrencyUsd'
 import HelpCircleOutline from 'mdi-material-ui/HelpCircleOutline'
 import BriefcaseVariantOutline from 'mdi-material-ui/BriefcaseVariantOutline'
 
@@ -42,21 +42,21 @@ const Dashboard = () => {
           <Grid container spacing={6}>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='1H 32M 10S'
+                stats='$25.6k'
                 icon={<Poll />}
                 color='success'
-                trendNumber=''
-                title='Next Meeting'
-                subtitle='Zoom w/ Investors'
+                trendNumber='+42%'
+                title='Total Profit'
+                subtitle='Weekly Profit'
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
-                stats='$780,203,681'
-                title='Debt Service'
+                stats='$78'
+                title='Refunds'
                 trend='negative'
                 color='secondary'
-                trendNumber='-1%'
+                trendNumber='-15%'
                 subtitle='Past Month'
                 icon={<CurrencyUsd />}
               />
@@ -66,8 +66,8 @@ const Dashboard = () => {
                 stats='862'
                 trend='negative'
                 trendNumber='-18%'
-                title='Potential Deals'
-                subtitle='This Week'
+                title='New Project'
+                subtitle='Yearly Project'
                 icon={<BriefcaseVariantOutline />}
               />
             </Grid>
@@ -78,7 +78,7 @@ const Dashboard = () => {
                 trend='negative'
                 trendNumber='-18%'
                 subtitle='Last Week'
-                title='Emails From Contacts'
+                title='Sales Queries'
                 icon={<HelpCircleOutline />}
               />
             </Grid>

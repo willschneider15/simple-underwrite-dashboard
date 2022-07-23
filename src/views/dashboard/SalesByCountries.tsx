@@ -31,52 +31,52 @@ interface DataType {
 
 const data: DataType[] = [
   {
-    sales: '374k',
+    sales: '894k',
     trendDir: 'up',
     subtitle: 'USA',
-    title: '$514.6B',
+    title: '$8,656k',
     avatarText: 'US',
-    trendNumber: '11.3%',
+    trendNumber: '25.8%',
     avatarColor: 'success',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '458k',
+    sales: '645k',
     subtitle: 'UK',
-    trendDir: 'up',
-    title: '$115.8B',
+    trendDir: 'down',
+    title: '$2,415k',
     avatarText: 'UK',
-    trendNumber: '6.4%',
-    avatarColor: 'success',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+    trendNumber: '6.2%',
+    avatarColor: 'error',
+    trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '73k',
-    title: '$120B',
+    sales: '148k',
+    title: '$865k',
     trendDir: 'up',
     avatarText: 'IN',
     subtitle: 'India',
-    trendNumber: '3.8%',
+    trendNumber: '12.4%',
     avatarColor: 'warning',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '230k',
-    title: '$400B',
-    trendDir: 'up',
+    sales: '86k',
+    title: '$745k',
+    trendDir: 'down',
     avatarText: 'JA',
     subtitle: 'Japan',
-    trendNumber: '6.9%',
+    trendNumber: '11.9%',
     avatarColor: 'secondary',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+    trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '1.07m',
-    title: '$30B',
+    sales: '42k',
+    title: '$45k',
     trendDir: 'up',
-    avatarText: 'SW',
-    subtitle: 'Switzerland',
-    trendNumber: '6.0%',
+    avatarText: 'KO',
+    subtitle: 'Korea',
+    trendNumber: '16.2%',
     avatarColor: 'error',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
@@ -86,7 +86,7 @@ const SalesByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='International Property Markets'
+        title='Sales by Countries'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -154,7 +154,7 @@ const SalesByCountries = () => {
                     {item.sales}
                   </Typography>
                   <Typography variant='caption' sx={{ lineHeight: 1.5 }}>
-                    Average Sale
+                    Sales
                   </Typography>
                 </Box>
               </Box>

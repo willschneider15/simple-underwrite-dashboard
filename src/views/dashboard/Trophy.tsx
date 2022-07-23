@@ -30,15 +30,15 @@ const Trophy = () => {
   return (
     <Card sx={{ position: 'relative' }}>
       <CardContent>
-        <Typography variant='h6'>Talk to John! 🥳</Typography>
+        <Typography variant='h6'>Congratulations John! 🥳</Typography>
         <Typography variant='body2' sx={{ letterSpacing: '0.25px' }}>
-          Most interesting potential deal
+          Best finder of the month
         </Typography>
         <Typography variant='h5' sx={{ my: 4, color: 'primary.main' }}>
-          CAP Rate: 15%
+          $42.8k
         </Typography>
         <Button size='small' variant='contained'>
-          View Deal
+          View Deals
         </Button>
         <TriangleImg alt='triangle background' src={`/images/misc/${imageSrc}`} />
         <TrophyImg alt='trophy' src='/images/misc/trophy.png' />

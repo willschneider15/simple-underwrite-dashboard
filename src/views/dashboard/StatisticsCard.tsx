@@ -12,11 +12,11 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 
 // ** Icons Imports
+import TrendingUp from 'mdi-material-ui/TrendingUp'
 import CurrencyUsd from 'mdi-material-ui/CurrencyUsd'
 import DotsVertical from 'mdi-material-ui/DotsVertical'
-import CashMultiple from 'mdi-material-ui/CashMultiple'
+import CellphoneLink from 'mdi-material-ui/CellphoneLink'
 import AccountOutline from 'mdi-material-ui/AccountOutline'
-import HomeCityOutline from 'mdi-material-ui/HomeCityOutline'
 
 // ** Types
 import { ThemeColor } from 'src/@core/layouts/types'
@@ -30,30 +30,29 @@ interface DataType {
 
 const salesData: DataType[] = [
   {
-    stats: '$4B',
-    title: 'Fixed Assets',
+    stats: '245k',
+    title: 'Sales',
     color: 'primary',
-    icon: <HomeCityOutline sx={{ fontSize: '1.75rem' }} />
+    icon: <TrendingUp sx={{ fontSize: '1.75rem' }} />
   },
   {
-    stats: '$15M',
-    color: 'info',
-    title: 'Liqud Assets',
-    icon: <CurrencyUsd sx={{ fontSize: '1.75rem' }} />
-  },
-  {
-    stats: '43',
-    color: 'warning',
-    title: 'Total Assets',
-    icon: <CashMultiple sx={{ fontSize: '1.75rem' }} />
-  },
-  {
-    stats: '6k',
-    title: 'Tenants',
+    stats: '12.5k',
+    title: 'Customers',
     color: 'success',
     icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
+  },
+  {
+    stats: '1.54k',
+    color: 'warning',
+    title: 'Products',
+    icon: <CellphoneLink sx={{ fontSize: '1.75rem' }} />
+  },
+  {
+    stats: '$88k',
+    color: 'info',
+    title: 'Revenue',
+    icon: <CurrencyUsd sx={{ fontSize: '1.75rem' }} />
   }
-
 ]
 
 const renderStats = () => {
@@ -86,7 +85,7 @@ const StatisticsCard = () => {
   return (
     <Card>
       <CardHeader
-        title='Under Management'
+        title='Statistics Card'
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
             <DotsVertical />
@@ -95,7 +94,7 @@ const StatisticsCard = () => {
         subheader={
           <Typography variant='body2'>
             <Box component='span' sx={{ fontWeight: 600, color: 'text.primary' }}>
-              Fixed assets experienced 4% growth
+              Total 48.5% growth
             </Box>{' '}
             😎 this month
           </Typography>
