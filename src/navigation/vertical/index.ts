@@ -9,6 +9,7 @@ import CreditCardOutline from 'mdi-material-ui/CreditCardOutline'
 import AccountPlusOutline from 'mdi-material-ui/AccountPlusOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
+import Abacus from 'mdi-material-ui/Abacus'
 
 import AccountDealOutline from 'mdi-material-ui/AccountCashOutline'
 
@@ -26,6 +27,11 @@ const navigation = (): VerticalNavItemsType => {
       title: 'Potential Deals',
       icon: AccountDealOutline,
       path: '/deals'
+    },
+    {
+      title: 'Strategy Builder',
+      icon: Abacus,
+      path: '/strategy'
     },
     {
       title: 'Account Settings',
