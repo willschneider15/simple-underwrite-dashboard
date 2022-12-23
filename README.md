@@ -1,50 +1,15 @@
-<p align="center"></p>
 
-<p align="center">
-   <a href="https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/" target="_blank">
-      <img src="https://user-images.githubusercontent.com/64475785/158384184-1fe44a59-6b68-40f5-b860-d14c51f0ce5d.svg" alt="materio-logo" width="60px" height="auto">
-   </a>
-</p>
 
-<h1 align="center">
-   <a href="https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/" target="_blank" align="center">
-      Materio - Free MUI React NextJS Admin Template
-   </a>
-</h1>
 
-<p align="center">Most Powerful & Comprehensive Free MUI React NextJS Admin Dashboard Template built for developers!
 
-</p>
+<img width="1792" alt="Screen Shot 2022-12-23 at 8 22 10 AM" src="https://user-images.githubusercontent.com/44822021/209343069-ab66443c-f6ba-4391-86b4-23ad7c884fde.png">
 
-<p align="center">
-   <a href="https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/themeselection/materio-mui-react-nextjs-admin-template-free" alt="license">
-   </a>
-   <a href="https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free/releases">
-      <img src="https://img.shields.io/github/v/release/themeselection/materio-mui-react-nextjs-admin-template-free" alt="GitHub release (latest by date)">
-   </a>
-   <a href="https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free/issues">
-      <img src="https://img.shields.io/github/issues/themeselection/materio-mui-react-nextjs-admin-template-free" alt="GitHub open issues">
-   </a>
-   <a href="https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues-closed/themeselection/materio-mui-react-nextjs-admin-template-free" alt="GitHub closed issues">
-   </a>
-   <a href="https://twitter.com/Theme_Selection" target="_blank">
-      <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Theme_Selection">
-   </a>
-</p>
-
-<kbd>[![Materio - Free MUI React NextJS Admin Template Demo Screenshot](https://user-images.githubusercontent.com/64475785/158384546-57879619-2d6d-4df6-8dc3-b4e53a536d50.png)](https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/)</kbd>
 
 ## Introduction 🚀
 
-If you’re a developer looking for most Powerful & comprehensive [**Free MUI React NextJS Admin Dashboard Template**](https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/) built for developers, rich with features, and highly customizable, look no further than Materio. We’ve followed the highest industry standards to bring you the very best admin template that is not only easy to use but highly scalable. Offering ultimate convenience and flexibility, you’ll be able to build whatever application you want with very little hassle.
+This a simple example of an application for underwritng commerical real estate. The idea is to have an intutive dashboard to review multiple properties based on data provided in linked excel or google sheets. The front-end is completely customizable using the documentation from the theme provided.
 
-Build premium quality applications with ease. Use our one of the most innovative [React admin templates](https://themeselection.com/products/category/react-admin-templates/) to create eye-catching, high-quality WebApps. Your apps will be completely responsive, ensuring they’ll look stunning and function flawlessly on desktops, tablets, and mobile devices.
-
-Materio provides template with Javascript and Typescript
-
-[View Demo](https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/)
+Here as an example of how the application might look: https://simple-underwrite-dashboard.vercel.app/
 
 ## Installation ⚒️
 
@@ -91,39 +56,11 @@ yarn dev
 - Tables
 - Form Layouts
 
-## What's in Premium Version 💎
 
-| Materio Free Version | Materio Premium Version |
-| :------------------- | :---------------------- |
-| [Demo](https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/) | [Demo](https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/landing/)                |
-| [Download](https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/) | [Purchase](https://themeselection.com/products/materio-mui-react-nextjs-admin-template/) |
-| Simple vertical menu | Vertical (+ vertical collapsed) menu & Horizontal menu |
-| Default skin | Default, bordered & semi dark skins |
-| 1 Simple Dashboard | 3 Niche Dashboards |
-| - | Multiple applications like Email, Chat, Calendar, Invoice, User List, User View and Roles & Permission |
-| Simple from layouts | Form elements, advance form layouts, form validation & form wizard |
-| Basic Cards | Basic, Advance, Statistics, Analytics, Gamifications and Actions Cards |
-| 3 Custom Components | 15 Custom Components |
-| - | Quick Search - Quickly navigate between pages (with hotkey support) |
-| Basic tables | Advanced tables + Data Grid Tables |
-| 1 Chart Library | 3 Chart Libraries |
-| User Overridable Layout | User Overridable Layout & Theme |
-| Account Settings, Login, Register and Error pages | Authentication pages in 2 Variants + Ready to use pages like User Profile, Account Settings, FAQ, Pricing and some Misc pages |
-| Single-level menu | Multi-level menu (Grouped menu items) |
-| - | Multiple navbar & footer options |
-| - | JWT Authentication |
-| - | RTL (Right-to-Left) Support |
-| - | Redux |
-| - | Access Control (ACL - CASL) |
-| - | Multi-lingual Support |
-| - | Starter-kit |
-| - | Customizer drawer to check options in live app |
-| Limited customization | Endless customization possibilities |
-| Regular Support | Premium Support |
 
 ## Documentation 📜
 
-Check out our live [Documentation](https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/documentation/)
+Materio [Documentation](https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/documentation/)
 
 ## Browser Support 🖥️
 
@@ -154,6 +91,7 @@ Contribution are always welcome and recommended! Here is how:
 ## Creators 😇
 
 - [ThemeSelection](https://themeselection.com)
+- William Schneider
 
 ## Changelog 📆
 
@@ -163,17 +101,6 @@ Please refer to the [CHANGELOG](CHANGELOG.md) file. We will add a detailed relea
 
 **We request you to keep ThemeSelection credit link in the footer section.**
 
-## Looking For Premium Admin Templates ?? 👀
-
-**[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use Free and Premium [Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/), [VueJS Admin Templates](https://themeselection.com/products/category/vuejs-admin-templates/), [Laravel Admin Templates](https://themeselection.com/products/category/laravel-admin-templates/), [React Admin Templates](https://themeselection.com/products/category/react-admin-templates/) and [Free UI Kits](https://themeselection.com/products/category/free-ui-kits/) to create your applications faster!
-
-If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Materio, then do visit [ThemeSelection](https://themeselection.com/).
-
-## Other variants
-
-- [Materio - Vuetify VueJS Free Admin Template](https://themeselection.com/products/materio-free-vuetify-vuejs-admin-template/)
-- [Materio - Vuetify VueJS Laravel Free Admin Template](https://themeselection.com/products/materio-free-vuetify-vuejs-laravel-admin-template/)
-- [Materio - Figma Admin Dashboard UI Kit](https://themeselection.com/products/materio-figma-admin-dashboard-ui-kit/)
 
 ## Credits 🙏
 
